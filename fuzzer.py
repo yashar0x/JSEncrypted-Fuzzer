@@ -94,7 +94,6 @@ for username in usernames:
         response = requests.get(args.url, verify = False)
         cookies = response.cookies
         if response.status_code == 200:
-            #Fetching The Public Key
             publicKeyVal = re.compile('PUBLIC&#32;KEY-----&#10;(.*?)&#10;-----END')
             match = publicKeyVal.search(response.text)
             if match:
