@@ -1,2 +1,2 @@
 # JSEncrypted-Fuzzer
-Python app for Fuzzing and Brute Forcing JS Encrypted Login Forms
+Python app for Fuzzing and Brute-Forcing JS-Encrypted Forms
