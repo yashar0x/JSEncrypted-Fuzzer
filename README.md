@@ -12,7 +12,7 @@ This is a Python app that will GETs the login page, derives the public key from 
 
 # Installation
 
-        pip install requirements.txt
+        # pip install requirements.txt
 
 # Guidance
 
@@ -57,7 +57,7 @@ This is a Python app that will GETs the login page, derives the public key from 
 
 # Sample
 
-        python fuzzer.py https://Target.com/Login -u username.txt -p password.txt -uLabel UserName -pLabel PassWord -r 301
+        # python fuzzer.py https://Target.com/Login -u username.txt -p password.txt -uLabel UserName -pLabel PassWord -r 301
 
 
 **NOTE:** ONLY FOR EDUCATIONAL PURPOSES
