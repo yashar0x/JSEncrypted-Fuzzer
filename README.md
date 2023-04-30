@@ -12,7 +12,7 @@ This is a Python app that will GETs the login page, derives the public key from 
 
 # Installation
 
-        # pip install requirements.txt
+        # pip install -r requirements.txt
 
 # Guidance
 
