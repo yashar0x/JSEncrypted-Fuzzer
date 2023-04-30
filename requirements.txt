@@ -2,7 +2,6 @@ js2py
 requests
 readline
 termcolor
-re
 subprocess
 urllib.parse
 urllib3
