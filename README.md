@@ -58,7 +58,28 @@ This is a Python app that will GETs the login page, derives the public key from 
 # Sample
 For a better understanding of how JSEncrypted-Fuzzer works I intercepted the packets using Burp:
 
-![Screenshot](./images/SC1.jpg)
+![Screenshot](./img/SC1.jpg)
+
+
+GET Request for login page:
+
+![Screenshot](./img/SC2.jpg)
+
+
+The app will derives the public key from the hidden input:
+
+![Screenshot](./img/SC3.jpg)
+
+
+Sending the encrypted username and password:
+
+![Screenshot](./img/SC4.jpg)
+
+
+Successfuly logged in with provided username and password:
+
+![Screenshot](./img/SC5.jpg)
+
 
 **Tested on Python 3.10.8**
 
