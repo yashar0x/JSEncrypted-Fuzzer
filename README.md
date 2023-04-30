@@ -16,42 +16,44 @@ This is a Python app that will GETs the login page, derives the public key from 
 
 # Guidance
 
-        python fuzzer.py -h
+        # python fuzzer.py -h
+        
               _ ____  _____                             _           _
-    | / ___|| ____|_ __   ___ _ __ _   _ _ __ | |_ ___  __| |
- _  | \___ \|  _| | '_ \ / __| '__| | | | '_ \| __/ _ \/ _` |
-| |_| |___) | |___| | | | (__| |  | |_| | |_) | ||  __/ (_| |
- \___/|____/|_____|_| |_|\___|_|   \__, | .__/ \__\___|\__,_|
-                                   |___/|_|
- _____                          _____
-|  ___|__  _ __ _ __ ___  ___  |  ___|   _ ___________ _ __
-| |_ / _ \| '__| '_ ` _ \/ __| | |_ | | | |_  /_  / _ \ '__|
-|  _| (_) | |  | | | | | \__ \ |  _|| |_| |/ / / /  __/ |
-|_|  \___/|_|  |_| |_| |_|___/ |_|   \__,_/___/___\___|_|
+            | / ___|| ____|_ __   ___ _ __ _   _ _ __ | |_ ___  __| |
+         _  | \___ \|  _| | '_ \ / __| '__| | | | '_ \| __/ _ \/ _` |
+        | |_| |___) | |___| | | | (__| |  | |_| | |_) | ||  __/ (_| |
+         \___/|____/|_____|_| |_|\___|_|   \__, | .__/ \__\___|\__,_|
+                                           |___/|_|
+         _____                          _____
+        |  ___|__  _ __ _ __ ___  ___  |  ___|   _ ___________ _ __
+        | |_ / _ \| '__| '_ ` _ \/ __| | |_ | | | |_  /_  / _ \ '__|
+        |  _| (_) | |  | | | | | \__ \ |  _|| |_| |/ / / /  __/ |
+        |_|  \___/|_|  |_| |_| |_|___/ |_|   \__,_/___/___\___|_|
 
 
-   Author:  Yashar Mohagheghi
-   Twitter: yashar0x
-   Github:  yashar0x
-   Website: shellcode.ir
+           Author:  Yashar Mohagheghi
+           Twitter: yashar0x
+           Github:  yashar0x
+           Website: shellcode.ir
+           
+        usage: fuzzer.py [-h] [-u USERNAMES] [-p PASSWORDS] [-uLabel USERNAMELABEL] [-pLabel PASSWORDLABEL] [-r RESPONSECODE] url
 
-usage: fuzzer.py [-h] [-u USERNAMES] [-p PASSWORDS] [-uLabel USERNAMELABEL] [-pLabel PASSWORDLABEL] [-r RESPONSECODE] url
+        positional arguments:
+          url                   Exact URL of the login page
 
-positional arguments:
-  url                   Exact URL of the login page
-
-options:
-  -h, --help            show this help message and exit
-  -u USERNAMES, --usernames USERNAMES
-                        Username Wordlist File
-  -p PASSWORDS, --passwords PASSWORDS
-                        Password Wordlist File
-  -uLabel USERNAMELABEL, --usernamelabel USERNAMELABEL
-                        The label of Username field, Default is: username
-  -pLabel PASSWORDLABEL, --passwordlabel PASSWORDLABEL
-                        The lable of Password field, Default is: password
-  -r RESPONSECODE, --responsecode RESPONSECODE
-                        Successful response code, Default is 200
+        options:
+          -h, --help            show this help message and exit
+          -u USERNAMES, --usernames USERNAMES
+                                Username Wordlist File
+          -p PASSWORDS, --passwords PASSWORDS
+                                Password Wordlist File
+          -uLabel USERNAMELABEL, --usernamelabel USERNAMELABEL
+                                The label of Username field, Default is: username
+          -pLabel PASSWORDLABEL, --passwordlabel PASSWORDLABEL
+                                The lable of Password field, Default is: password
+          -r RESPONSECODE, --responsecode RESPONSECODE
+                                Successful response code, Default is 200
+        
 
 # Usage
 
