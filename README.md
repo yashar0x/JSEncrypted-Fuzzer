@@ -55,6 +55,8 @@ This is a Python app that will GETs the login page, derives the public key from 
                                 Successful response code, Default is 200
         
 
-# Usage
+# Sample
 
-        python fuzzer.py https://Target.com/Login -u username.txt -p password.txt
+        python fuzzer.py https://Target.com/Login -u username.txt -p password.txt -uLabel UserName -pLabel PassWord -r 301
+
+**NOTE:** FOR EDUCATIONAL PURPOSES ONLY
