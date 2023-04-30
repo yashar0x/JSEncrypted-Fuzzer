@@ -59,4 +59,5 @@ This is a Python app that will GETs the login page, derives the public key from 
 
         python fuzzer.py https://Target.com/Login -u username.txt -p password.txt -uLabel UserName -pLabel PassWord -r 301
 
-**NOTE:** FOR EDUCATIONAL PURPOSES ONLY
+
+**NOTE:** ONLY FOR EDUCATIONAL PURPOSES USAGE
