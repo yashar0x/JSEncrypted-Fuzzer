@@ -1,5 +1,5 @@
 # JSEncrypted-Fuzzer
-Nowdays many applications are using Mr. Travis Tidwell's JSEncrypt library (https://travistidwell.com/jsencrypt/) to encrypt forms while posting,
+Nowadays many applications are using Mr. Travis Tidwell's JSEncrypt library (https://travistidwell.com/jsencrypt/) to encrypt forms while posting,
 And as you know you cannot manipulate these types of forms while Intercepting because the parameters are encrypted with a public key which was sent by the server to the client at the first step that he visits the form, and then only the encrypted parameters will be accepted by the server.
 
 So if you want to inject your payload in these types of forms, you have to encrypt them before sending,
@@ -8,7 +8,7 @@ But when the form has also a client side protection that prevents you from injec
 So now is when you need a solution to make it possible
 
 # What does JSEncrypted-Fuzzer do?
-This is a Python app that will GETs the login page, derives the public key from the source code of the page, encrypts your provided wordlists with the public key using a simple Node.js app which uses jsencrypt.min.js library, url-encodes the username and password, sends the encrypted data using a POST request and if the response code is what you specified at the first step, It will save the correct username and password in a .txt file in output directory
+This is a Python app that GETs the login page, derive the public key from the source code of the page, encrypts your provided wordlists with the public key using a simple Node.js app which uses jsencrypt.min.js library, url-encodes the username and password, sends the encrypted data using a POST request and if the response code is what you specified at the first step, It will save the correct username and password in a .txt file in output directory
 
 # Installation
 
@@ -66,7 +66,7 @@ GET Request for login page:
 ![Screenshot](./img/SC2.jpg)
 
 
-The app will derives the public key from the hidden input:
+The app will derive the public key from the hidden input:
 
 ![Screenshot](./img/SC3.jpg)
 
@@ -76,7 +76,7 @@ Sending the encrypted username and password:
 ![Screenshot](./img/SC4.jpg)
 
 
-Successfuly logged in with provided username and password:
+Successfully logged in with provided username and password:
 
 ![Screenshot](./img/SC5.jpg)
 
