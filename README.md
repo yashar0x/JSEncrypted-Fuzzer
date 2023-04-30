@@ -8,7 +8,7 @@ But when the form has also a client side protection that prevents you from injec
 So now is when you need a solution to make it possible
 
 # What does JSEncrypted-Fuzzer do?
-This is a Python app that GETs the login page, derive the public key from the source code of the page, encrypts your provided wordlists with the public key using a simple Node.js app which uses jsencrypt.min.js library, url-encodes the username and password, sends the encrypted data using a POST request and if the response code is what you specified at the first step, It will save the correct username and password in a .txt file in output directory
+This is a Python app that GETs the login page, derives the public key from the source code of the page, encrypts your provided wordlists with the public key using a simple Node.js app which uses jsencrypt.min.js library, url-encodes the username and password, sends the encrypted data using a POST request and if the response code is what you specified at the first step, It will save the correct username and password in a .txt file in output directory
 
 # Installation
 
