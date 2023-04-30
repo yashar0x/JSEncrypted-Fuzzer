@@ -1,1 +1,15 @@
-js2py, argparse, os, requests, readline, base64, termcolor, re, subprocess, urllib.parse, urllib3, itertools, threading, time, sys
+js2py
+argparse
+os
+requests
+readline
+base64
+termcolor
+re
+subprocess
+urllib.parse
+urllib3
+itertools
+threading
+time
+sys
