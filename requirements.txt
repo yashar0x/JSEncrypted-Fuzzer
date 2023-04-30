@@ -2,6 +2,5 @@ js2py
 requests
 readline
 termcolor
-urllib.parse
 urllib3
 itertools
