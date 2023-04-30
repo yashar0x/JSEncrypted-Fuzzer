@@ -3,4 +3,3 @@ requests
 readline
 termcolor
 urllib3
-itertools
