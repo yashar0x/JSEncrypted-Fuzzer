@@ -83,6 +83,6 @@ Successfuly logged in with provided username and password:
 
 **Tested on Python 3.10.8**
 
-**Note:** This app will test all the passwords for each username, Exactly like how Cluster-Bomb attack type of Burp Intruder works.
+**Note:** This app will test all the passwords for each username, The same as Cluster-Bomb Attack Type in Burp Intruder.
 
 **WARNING:** ONLY FOR EDUCATIONAL PURPOSES
