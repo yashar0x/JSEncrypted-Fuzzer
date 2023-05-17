@@ -9,7 +9,6 @@ function getInput() {
         encrypt.setPublicKey(publicKey);
         var encrypted = encrypt.encrypt(phrase);
         console.log(encrypted);
-  
 }
 
 getInput();
