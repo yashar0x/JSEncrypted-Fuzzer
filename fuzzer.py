@@ -43,7 +43,7 @@ author = """
    Author:  Yashar Mohagheghi
    Twitter: yashar0x
    Github:  yashar0x
-   Website: shellcode.ir
+   Website: yashar.pro
 """
 print (colored(banner, 'red'))
 print (author)
