@@ -85,4 +85,4 @@ Successfully logged in with provided username and password:
 
 **Note:** This app will test all the passwords for each username, The same as Cluster-Bomb Attack Type in Burp Intruder.
 
-**WARNING:** ONLY FOR EDUCATIONAL PURPOSES
+**ONLY FOR EDUCATIONAL PURPOSES**
