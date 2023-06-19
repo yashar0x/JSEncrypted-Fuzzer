@@ -1,5 +1,5 @@
 # JSEncrypted-Fuzzer
-Nowadays some applications are using Mr. Travis Tidwell's JSEncrypt library (https://travistidwell.com/jsencrypt/) to encrypt forms while posting,
+Nowadays some applications are using Mr. Travis Tidwell's [JSEncrypt library](https://travistidwell.com/jsencrypt/) to encrypt forms while posting,
 And as you know you cannot manipulate these types of forms while Intercepting because the parameters are encrypted with a public key which was sent by the server to the client at the first step that he visits the form, and then only the encrypted parameters will be accepted by the server.
 
 So if you want to inject your payload in these types of forms, you have to encrypt them before sending,
