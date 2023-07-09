@@ -41,8 +41,8 @@ if __name__ == "__main__":
  """
 author = """
    Author:  Yashar Mohagheghi
-   Twitter: 0xShredder
-   Github:  0xShredder
+   Twitter: yashar0x
+   Github:  yashar0x
    Website: yashar.pro
 """
 print (colored(banner, 'red'))
