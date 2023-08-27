@@ -1,0 +1,5 @@
+js2py
+requests
+readline
+termcolor
+urllib3
