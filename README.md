@@ -1,16 +1,16 @@
 # JSEncrypted-Fuzzer
 I was working on a project that utilized Mr. Travis Tidwell's [JSEncrypt library](https://travistidwell.com/jsencrypt/) to perform asymmetric client-side encryption for a login form. As you may know, manipulating these kinds of forms while intercepting them is not easy. Consequently, I developed this tool to facilitate Fuzzing or Brute Forcing attacks against such encrypted forms.
 
-# What does JSEncrypted-Fuzzer do?
+## What does JSEncrypted-Fuzzer do?
 This is a Python app that GETs the login page, derives the public key from the source code of the page, encrypts your provided wordlists with the public key using a simple Node.js app which uses jsencrypt.min.js library, url-encodes the output, sends the encrypted data using a POST request and if the response code is what you specified at the first step, It will save the correct username and password in a .txt file in output directory.
 
-# Installation
+## Installation
 
         # git clone https://github.com/yashar0x/JSEncrypted-Fuzzer
         # cd JSEncrypted-Fuzzer
         # pip install -r requirements.txt
 
-# Guidance
+## Guidance
 
         # python fuzzer.py -h
         
