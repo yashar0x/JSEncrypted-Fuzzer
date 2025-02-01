@@ -27,7 +27,6 @@ This is a Python app that GETs the login page, derives the public key from the s
            Author:  Yashar
            Twitter: yashar0x
            Github:  yashar0x
-           Website: yashar.pro
            
         usage: fuzzer.py [-h] [-u USERNAMES] [-p PASSWORDS] [-uLabel USERNAMELABEL] [-pLabel PASSWORDLABEL] [-r RESPONSECODE] url
 
